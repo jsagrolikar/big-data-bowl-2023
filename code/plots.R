@@ -2,7 +2,7 @@ library(ggplot2)
 library(nflplotR)
 ## variables to change: team_aggregate_metrics, pff_predicted, survival_probability ##
 
-#### Plot for team aggregated metrics ####
+### Plot for team aggregated metrics ###
 
 annotation <- data.frame(
   x = c(.75675,.75675, 0.7465, 0.7465),
